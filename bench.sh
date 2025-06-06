@@ -76,16 +76,18 @@ speed_test() {
 speed() {
     speed_test '' 'Speedtest.net'
     speed_test '21541' 'Los Angeles, US'
-    speed_test '43860' 'Dallas, US'
-    speed_test '40879' 'Montreal, CA'
-    speed_test '61933' 'Paris, FR'
+    speed_test '24215' 'Paris, FR'
     speed_test '28922' 'Amsterdam, NL'
-    speed_test '25858' 'Beijing, CN'
-    speed_test '24447' 'Shanghai, CN'
-    speed_test '60572' 'Guangzhou, CN'
-    speed_test '32155' 'Hong Kong, CN'
-    speed_test '13623' 'Singapore, SG'
-    speed_test '48463' 'Tokyo, JP'
+    speed_test '32155' 'Hongkong, CN'
+    speed_test '6527' 'Seoul, KR'
+    speed_test '7311' 'Singapore, SG'
+    speed_test '21569' 'Tokyo, JP'
+    speed_test '2515' 'FPT-HCM, VN'
+    speed_test '2552' 'FPT-HN, VN'
+    speed_test '17758' 'VNPT-HCM, VN'
+    speed_test '17757' 'VNPT-HN, VN'
+    speed_test '54812' 'Viettel-HCM, VN'
+    speed_test '59915' 'Viettel-DN, VN'
 }
 
 io_test() {
@@ -253,7 +255,7 @@ install_speedtest() {
 print_intro() {
     echo "-------------------- A Bench.sh Script By Teddysun -------------------"
     echo " Version            : $(_green v2025-05-08)"
-    echo " Usage              : $(_red "wget -qO- bench.sh | bash")"
+    echo " Usage              : $(_red "wget -qO- https://bibica.net/speedtest | bash")"
 }
 
 # Get System information
